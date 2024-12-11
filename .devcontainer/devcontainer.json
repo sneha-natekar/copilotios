@@ -1,0 +1,17 @@
+{
+  "name": "iOS Development Environment",
+  "dockerFile": "Dockerfile",
+  "extensions": [
+    "ms-vscode.cpptools",
+    "ms-python.python",
+    "ms-vscode.cmake-tools",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode-remote.remote-containers"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000
+  }
+}
